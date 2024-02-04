@@ -1,7 +1,6 @@
 import { AbsoluteFill } from 'remotion';
 
 import { Icon } from './Icon';
-import { Text } from './Text';
 
 export const MyComposition = () => {
 	return (
@@ -9,7 +8,6 @@ export const MyComposition = () => {
 			<div className="max-h-[60%]">
 				<Icon />
 			</div>
-			<Text />
 		</AbsoluteFill>
 	);
 };
